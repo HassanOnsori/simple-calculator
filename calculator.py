@@ -83,13 +83,5 @@ def main():
                 break
             result(k)
 
-    else:
-        while True:
-            k = raw_input("\nWhat is ")
-            if k == 'quit':
-                break
-            result(k)
-
-
 if __name__ == '__main__':
     main()
