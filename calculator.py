@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 17 08:54:52 2022
-
-@author: Onsori
-"""
-
 import sys
 import math
 ## Imported math library to run sin(), cos(), tan() and other such functions in the calculator
@@ -47,20 +40,20 @@ def calc(term):
     # here goes to the error cases.
     except ZeroDivisionError:
 
-        print("Can't divide by 0.  Please try again.")
+        print("Can't divide by 0.  Please try again...")
 
     except NameError:
 
-        print('Invalid input.  Please try again')
+        print('Invalid input.  Please try again...')
 
     except AttributeError:
 
-        print('Please check usage method and try again.')
+        print('Please check usage method and try again...')
     except TypeError:
-        print("please enter inputs of correct datatype ")
+        print("please enter inputs of correct datatype... ")
 
     except Exception:
-        print("Wrong operator")
+        print("Wrong operator!")
 
     return term
 
